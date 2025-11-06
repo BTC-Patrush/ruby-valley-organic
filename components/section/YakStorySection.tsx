@@ -10,7 +10,7 @@ const YakStorySection: React.FC = () => {
         {/* Product Image */}
         <div className="rounded-2xl overflow-hidden shadow-2xl">
           <Image
-            src="/assets/img/yak.png"
+            src="/images/home/yak.png"
             alt="Traditional Yak Herding"
             width={800}
             height={600}

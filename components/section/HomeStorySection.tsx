@@ -35,7 +35,7 @@ const MissionSection: React.FC = () => {
         {/* Story Image */}
         <div className="lg:order-1 rounded-2xl overflow-hidden shadow-2xl">
           <Image
-            src="/assets/img/communtity.png"
+            src="/images/home/community.png"
             alt="Ruby Valley community and mountains"
             width={800}
             height={600}

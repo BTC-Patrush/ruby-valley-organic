@@ -18,7 +18,7 @@ const products: Product[] = [
     name: "Aged Yak Chhurpi",
     category: "Dairy & Livestock",
     price: "NPR 1,200",
-    imageUrl: "/assets/img/churpii.png",
+    imageUrl: "/images/home/churpii.png",
     link: "#yak-story",
   },
   {
@@ -26,7 +26,7 @@ const products: Product[] = [
     name: "Raw Quartz Cluster",
     category: "Crystals & Earth",
     price: "NPR 4,500",
-    imageUrl: "/assets/img/crystal.png",
+    imageUrl: "/images/home/crystal.png",
     link: "#crystals",
   },
   {
@@ -34,7 +34,7 @@ const products: Product[] = [
     name: "Seasonal Mountain Apples",
     category: "Organic Produce",
     price: "NPR 350 / Kg",
-    imageUrl: "/assets/img/apple.png",
+    imageUrl: "/images/home/apple.png",
     link: "#",
   },
   {
@@ -42,7 +42,7 @@ const products: Product[] = [
     name: "Ruby Glacial Water (Pack)",
     category: "Source Water",
     price: "NPR 800",
-    imageUrl: "/assets/img/gwater.png",
+    imageUrl: "/images/home/gwater.png",
     link: "#water-source",
   },
 ];

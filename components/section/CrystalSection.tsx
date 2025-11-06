@@ -10,7 +10,7 @@ const CrystalSection: React.FC = () => {
         {/* Crystal Image */}
         <div className="rounded-2xl overflow-hidden shadow-2xl lg:order-2">
           <Image
-            src="/assets/img/ruby.png"
+            src="/images/home/ruby.png"
             alt="Himalayan Crystals"
             width={800}
             height={600}

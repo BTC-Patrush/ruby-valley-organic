@@ -13,7 +13,7 @@ const WaterSection: React.FC = () => {
         {/* Image/Product Mockup */}
         <div className="rounded-2xl overflow-hidden shadow-2xl order-2 lg:order-1">
           <Image
-            src="/assets/img/water.png"
+            src="/images/home/water.png"
             alt="Ruby Valley Glacial Water"
             width={800}
             height={600}
