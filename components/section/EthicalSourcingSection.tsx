@@ -58,7 +58,7 @@ const EthicalSourcingSection: React.FC = () => {
         {/* Image */}
         <div className="rounded-2xl overflow-hidden shadow-2xl">
           <Image
-            src="/assets/img/trade.png"
+            src="/images/home/trade.png"
             alt="Sustainability commitment"
             width={800}
             height={600}
