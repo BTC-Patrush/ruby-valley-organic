@@ -1,11 +1,12 @@
 'use client';
-import Link from 'next/link';
 import ProductCard from './ProductCard';
 import CategorySection from './CategorySection';
 import { produceProducts, Product } from '@/data/products';
 
 export default function ProduceCategory() {
-  const produce: Product[] = produceProducts.filter(p => p.category === 'Produce');
+  const produce: Product[] = produceProducts.filter(
+    (p) => p.category === 'Produce'
+  );
 
   return (
     <CategorySection
@@ -15,9 +16,7 @@ export default function ProduceCategory() {
       categoryId="produce"
     >
       {produce.map((p) => (
-        <Link key={p.id} href={`/shop/${p.slug}`}>
-          <ProductCard product={p} />
-        </Link>
+        <ProductCard key={p.id} product={p} />
       ))}
     </CategorySection>
   );
