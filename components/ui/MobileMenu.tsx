@@ -7,7 +7,7 @@ import Link from 'next/link'; // Use Next.js Link for navigation
 const navItems = [
   { name: 'Shop', href: '/shop' },
   { name: 'Our Story', href: '/story' },
-  { name: 'Crystals', href: '/crystals' },
+  
   { name: 'Contact', href: '/contact' },
 ];
 

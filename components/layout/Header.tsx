@@ -27,7 +27,7 @@ export default function Header() {
           {[
             { href: '/shop', label: 'Shop' },
             { href: '/story', label: 'Our Story' },
-            // { href: '/crystals', label: 'Crystals' },
+            
             { href: '/contact', label: 'Contact' },
           ].map(({ href, label }) => (
             <Link
