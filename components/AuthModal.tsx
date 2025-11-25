@@ -97,7 +97,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                 </button>
 
                 {/* Header */}
-                <h2 className="font-header text-2xl font-bold text-center text-charcoal mb-6">Login or Sign up</h2>
+                <h2 className="font-header text-2xl font-bold text-center text-charcoal mb-6">Order Now</h2>
 
                 {/* Phone Input */}
                 <div className="flex space-x-2 mb-4">
