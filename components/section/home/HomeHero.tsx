@@ -1,69 +1,31 @@
-// app/components/section/HomeHero.tsx
-import Link from 'next/link'
-import Image from 'next/image'
+"use client";
 
-type HomeHeroProps = {
-  title: string
-  subtitle: string
-  heroImageUrl?: string
-  primaryCtaText: string
-  primaryCtaLink: string
-  secondaryCtaText: string
-  secondaryCtaLink: string
-}
-
-export default function HomeHero({
-  title,
-  subtitle,
-  heroImageUrl,
-  primaryCtaText,
-  primaryCtaLink,
-  secondaryCtaText,
-  secondaryCtaLink,
-}: HomeHeroProps) {
+export default function HomeHero() {
   return (
-    <section
-      className="hero-bg flex h-[60vh] items-center justify-center text-center md:h-[80vh] bg-cover bg-center relative"
-      style={{
-        backgroundImage: heroImageUrl ? `url(${heroImageUrl})` : undefined,
-      }}
-    >
-      {/* Optional: Fallback image if no Sanity image */}
-      {heroImageUrl && (
-        <Image
-          src={heroImageUrl}
-          alt={title}
-          fill
-          priority
-          className="object-cover -z-10"
-        />
-      )}
-
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/40" />
-
-      <div className="relative z-10 max-w-4xl px-4">
-        <h1 className="font-header mb-4 text-5xl font-extrabold leading-tight text-white drop-shadow-lg sm:text-7xl">
-          {title}
+    <section className="hero-bg h-[60vh] md:h-[80vh] flex items-center justify-center text-center">
+      <div className="max-w-4xl px-4">
+        <h1 className="font-header text-5xl sm:text-7xl font-extrabold text-white mb-4 leading-tight drop-shadow-lg">
+          Himalayan Source. Unrivaled Purity.
         </h1>
-        <p className="mb-8 text-xl text-white drop-shadow-md sm:text-2xl">
-          {subtitle}
+        <p className="text-xl sm:text-2xl text-white mb-8 drop-shadow-md">
+          Source organic produce, glacier water, and artisan crystals. Direct from
+          Nepal's pristine peaks.
         </p>
-        <div className="flex flex-col justify-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0">
-          <Link
-            href={primaryCtaLink}
-            className="transform rounded-xl bg-ruby px-8 py-3 font-bold text-white shadow-xl transition duration-300 hover:scale-105 hover:bg-red-900"
+        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+          <a
+            href="#pillars"
+            className="bg-ruby text-white font-bold py-3 px-8 rounded-xl shadow-xl hover:bg-red-900 transition duration-300 transform hover:scale-105"
           >
-            {primaryCtaText}
-          </Link>
-          <Link
-            href={secondaryCtaLink}
-            className="transform rounded-xl bg-white px-8 py-3 font-bold text-charcoal shadow-xl transition duration-300 hover:scale-105 hover:bg-gray-100"
+            Shop the Valley Harvest
+          </a>
+          <a
+            href="#crystals"
+            className="bg-white text-charcoal font-bold py-3 px-8 rounded-xl shadow-xl hover:bg-gray-100 transition duration-300 transform hover:scale-105"
           >
-            {secondaryCtaText}
-          </Link>
+            Discover Crystals
+          </a>
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -39,13 +39,7 @@ export default function HomePage() {
     <main>
       {/* HERO */}
       <HomeHero
-        title={data.heroTitle}
-        subtitle={data.heroSubtitle}
-        heroImageUrl={data.heroImageUrl}
-        primaryCtaText={data.heroCtaPrimary}
-        primaryCtaLink={data.heroCtaPrimaryLink}
-        secondaryCtaText={data.heroCtaSecondary}
-        secondaryCtaLink={data.heroCtaSecondaryLink}
+        
       />
 
       {/* PILLARS */}
