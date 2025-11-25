@@ -138,51 +138,56 @@ export default async function HomePage() {
 
         {/* MISSION */}
         <HomeMissionSection
-          title={data.missionTitle || "Our Mission"}
-          body={data.missionBody || []}
+          // title={data.missionTitle || "Our Mission"}
+          // body={data.missionBody || []}
         />
 
         {/* WATER */}
         <WaterSection
-          title={data.waterTitle || "Pure Himalayan Water"}
-          imageUrl={data.waterImageUrl}
+          // title={data.waterTitle || "Pure Himalayan Water"}
+          // imageUrl={data.waterImageUrl}
         />
 
         {/* CRYSTAL */}
         <CrystalSection
-          title={data.crystalTitle || "Healing Crystals"}
-          body={data.crystalBody || []}
+          // title={data.crystalTitle || "Healing Crystals"}
+          // body={data.crystalBody || []}
         />
 
         {/* DELIVERY */}
         <DeliverySection
-          title={data.deliveryTitle || "Fast & Free Delivery"}
-          subtitle={data.deliverySubtitle || "Across Nepal"}
+          // title={data.deliveryTitle || "Fast & Free Delivery"}
+          // subtitle={data.deliverySubtitle || "Across Nepal"}
         />
 
         {/* YAK STORY */}
         <YakStorySection
-          title={data.yakTitle || "The Yak Herders"}
-          body={data.yakBody || []}
-          imageUrl={data.yakImageUrl}
+          // title={data.yakTitle || "The Yak Herders"}
+          // body={data.yakBody || []}
+          // imageUrl={data.yakImageUrl}
         />
 
         {/* FEATURED PRODUCTS */}
-        <FeaturedProductsSection products={data.featuredProducts || []} />
+        <FeaturedProductsSection 
+        // products={data.featuredProducts || []} 
+        />
 
         {/* TESTIMONIALS */}
-        <TestimonialsSection testimonials={data.testimonials || []} />
+        <TestimonialsSection 
+        // testimonials={data.testimonials || []} 
+        />
 
         {/* ETHICAL SOURCING */}
         <EthicalSourcingSection
-          title={data.ethicalTitle || "Ethical Sourcing"}
-          body={data.ethicalBody || []}
+
+          // title={data.ethicalTitle || "Ethical Sourcing"}
+          // body={data.ethicalBody || []}
         />
 
         {/* NEWSLETTER */}
         <NewsletterCTA
-          title={data.newsletterTitle || "Join Our Community"}
-          subtitle={data.newsletterSubtitle || "Get updates on new arrivals"}
+          // title={data.newsletterTitle || "Join Our Community"}
+          // subtitle={data.newsletterSubtitle || "Get updates on new arrivals"}
         />
       </main>
     </>
